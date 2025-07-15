@@ -56,6 +56,47 @@ nav ul li a, nav ul li button {
 nav ul li a:hover, nav ul li button:hover {
   color: #ff4d6d;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fbeeee;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.icon-badge {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: crimson;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 3px 6px;
+  min-width: 20px;
+  text-align: center;
+}
+
+.user-greet {
+  font-weight: bold;
+}
+
 
     .home {
   min-height: 80vh;
@@ -813,6 +854,30 @@ nav ul li a:hover {
 
 .rmv button:hover {
   background-color: #d0678e;
+}
+
+.product-card {
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product-link {
+  text-decoration: none;
+  color: #111;
 }
 
 
